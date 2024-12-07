@@ -1,0 +1,22 @@
+.help {
+  margin: 50px 0;
+
+  .help-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    strong {
+        font-size: 1.875rem;
+
+        span {
+            display: block;
+            padding-left: 68px;
+        }
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+  }
+}

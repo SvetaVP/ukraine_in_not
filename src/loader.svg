@@ -1,0 +1,98 @@
+<svg viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <g id="flower">
+      <!-- Лепестки -->
+      <path d="M10 0 C 4 -8, -4 -8, -10 0 C -16 8, -8 16, 0 10 C 8 16, 16 8, 10 0 Z" fill="red" />
+      <!-- Центр цветка -->
+      <circle cx="0" cy="0" r="3" fill="yellow" />
+    </g>
+    <g id="leaf">
+      <!-- Листик -->
+      <path d="M0,0 C0,7 7,7 7,0 C7,-7 0,-7 0,0 Z" fill="green" />
+    </g>
+    <g id="white_flower">
+      <!-- Белый цветок -->
+      <path d="M10 0 C 4 -8, -4 -8, -10 0 C -16 8, -8 16, 0 10 C 8 16, 16 8, 10 0 Z" fill="white" stroke="black" stroke-width="1" />
+      <!-- Центр белого цветка -->
+      <circle cx="0" cy="0" r="3" fill="black" />
+    </g>
+  </defs>
+  
+  <circle cx="100" cy="100" r="80" fill="none" stroke="green" stroke-width="2" />
+
+  <!-- Размещение цветов и листиков по окружности -->
+  <g transform="translate(100, 100)">
+    <g transform="rotate(0)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(87, -5)" />
+      <use xlink:href="#leaf" transform="translate(73, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(30)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(60)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(87, -5)" />
+      <use xlink:href="#leaf" transform="translate(73, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(90)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(120)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(87, -5)" />
+      <use xlink:href="#leaf" transform="translate(73, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(150)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(180)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(87, -5)" />
+      <use xlink:href="#leaf" transform="translate(73, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(210)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(240)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(87, -5)" />
+      <use xlink:href="#leaf" transform="translate(73, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(270)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(300)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+    <g transform="rotate(330)">
+      <use xlink:href="#flower" transform="translate(80, 0)" />
+      <use xlink:href="#white_flower" transform="translate(60, 0)" />
+      <use xlink:href="#leaf" transform="translate(73, -5)" />
+      <use xlink:href="#leaf" transform="translate(87, 5) scale(1, -1)" />
+    </g>
+  </g>
+</svg>
